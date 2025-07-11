@@ -48,7 +48,7 @@
 
 **브랜드 파워와 조회수와의 관계**
 
-<img width="420" height="400" alt="image" src="https://github.com/user-attachments/assets/eb90a81a-ec85-4552-87d6-bf0934a382dc" />  <img width="420" height="400" alt="image" src="https://github.com/user-attachments/assets/1794798f-1404-4f55-a5d8-616b36f7cab8" />
+<img width="400" height="380" alt="image" src="https://github.com/user-attachments/assets/eb90a81a-ec85-4552-87d6-bf0934a382dc" />  <img width="400" height="380" alt="image" src="https://github.com/user-attachments/assets/1794798f-1404-4f55-a5d8-616b36f7cab8" />
 <br/><br/><br/>
 
 **예측 결과**
