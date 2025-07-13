@@ -16,7 +16,8 @@
 
 - **학습 방법**:  
   - 수집한 유튜브 메타데이터를 기반으로 데이터 전처리 
-  - **게스트 직업, 업로드 요일, 영상 길이 등 영상 특성**과 **브랜드 파워 지표**를 feature로 구성  
+  - **게스트 직업, 업로드 요일, 영상 길이 등 영상 특성**과 **브랜드 파워 지표**를 feature로 구성
+  - 좋아요, 댓글과 같이 조회수가 발생한 후에 생성될 수 있는 특성은 모델 예측시 값을 지정해 줄 수 없으므로 학습에서 제외
   - 상관관계 분석 및 EDA 후 회귀 모델 적용
   - MSE을 활용한 모델간 예측 성능 평가, 변수 중요도 파악
   - 최종 모델 선정 및 조회수 예측 
@@ -36,19 +37,24 @@
 <br/>
 
 ## 🎯 Result
-- 더 상세하고 다양한 특성과의 EDA는 코드 결과 및 포트폴리오에서 확인 가능합니다.
+- 브랜드 파워 이외의 특성들의 추가적인 EDA는 코드 결과 및 포트폴리오에서 확인 가능합니다.
 <br/>
 
 **조회수와 feature 간의 상관관계**:
 - 상관관계가 전반적으로 낮음
 - 조회수가 발생한 이후 시청자의 반응(좋아요, 댓글)과 관계된 특성을 제외한다면 **브랜드 파워가 가장 강한 상관 관계**를 가지고 있음
 - 유명인이 게스트로 출현하는 만큼 개인의 사회적 영향력과 인지도가 가장 중요한 특성으로 보임  
-<img width="1155" height="804" alt="image" src="https://github.com/user-attachments/assets/5b513a6c-521d-409b-816b-b7422635130f" />
+<img width="810" height="557" alt="image" src="https://github.com/user-attachments/assets/5b513a6c-521d-409b-816b-b7422635130f" />
 <br/><br/><br/>
 
 **브랜드 파워와 조회수와의 관계**
 
 <img width="400" height="380" alt="image" src="https://github.com/user-attachments/assets/eb90a81a-ec85-4552-87d6-bf0934a382dc" />  <img width="400" height="380" alt="image" src="https://github.com/user-attachments/assets/1794798f-1404-4f55-a5d8-616b36f7cab8" />
+<br/><br/><br/>
+
+**브랜드 파워의 변수 중요도**
+
+<img width="810" height="580" alt="output" src="https://github.com/user-attachments/assets/f17cd369-970e-4470-ab2d-e6bae3a3e5c0" />
 <br/><br/><br/>
 
 **예측 결과**
